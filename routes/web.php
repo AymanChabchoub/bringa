@@ -51,7 +51,7 @@ Route::group(['middleware' => ['auth', 'role:user']], function() {
 
 
 
-
+kqf,lkqfnkfnlkqfnfnksfn
 require __DIR__.'/auth.php';
 Route::get('/b',[DashboardController::class,'index']);
 Route::resource('/categories',cotegorycontroller::class);
